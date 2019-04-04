@@ -1,0 +1,28 @@
+<div class="container" ng-controller="ServicesController">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Angular Services Example</h2>
+        </div>
+        <div class="col-md-12">
+            <p>This is a practical example for Angular Services. For this example, we al using a mock json callback to obtain the list of messages.</p>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>Message #</th>
+                <th>From</th>
+                <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="message in Messages">
+                <td>{{message.messageId}}</td>
+                <td>{{message.from}}</td>
+                <td>{{message.message}}</td>
+                </tr>
+            </tbody>
+        </table>        
+    </div>
+</div>

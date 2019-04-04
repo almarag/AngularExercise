@@ -35,5 +35,9 @@
   },
   "parcelCleanPaths": [
     "dist"
-  ]
+  ],
+  "staticFiles": {
+    "staticPath": "wwwroot",
+    "watcherGlob": "**"
+  }
 }

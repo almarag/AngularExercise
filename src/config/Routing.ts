@@ -5,6 +5,12 @@ export default ['$routeProvider', '$locationProvider', ($routeProvider: any, $lo
     })
     .when('/about', {
         templateUrl: 'about.html'
+    })
+    .when('/services', {
+        templateUrl: 'services.html'
+    })
+    .when('/directives', {
+        templateUrl: 'directives.html'
     });
 
     $locationProvider.html5Mode(true);
