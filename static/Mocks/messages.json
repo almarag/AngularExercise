@@ -1,0 +1,17 @@
+[
+    {
+        "messageId": 1,
+        "from": "Carol White",
+        "message": "This is a good software"
+    },
+    {
+        "messageId": 2,
+        "from": "Jhon Locke",
+        "message": "Worked like a charm"
+    },
+    {
+        "messageId": 3,
+        "from": "Austin Powers",
+        "message": "This is good stuff"
+    }
+]
