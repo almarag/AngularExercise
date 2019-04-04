@@ -3,6 +3,8 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: [
         'HomePageTest.js',
-        'AboutPageTest.js'
+        'AboutPageTest.js',
+        'DirectivesPageTest.js',
+        'ServicesPageTest.js'
     ]
 };
