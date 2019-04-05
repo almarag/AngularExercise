@@ -4,7 +4,7 @@
   "description": "Basic Excercise",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./wwwroot/index.html --no-source-maps",
+    "build": "sass ./src/scss/styles.scss ./src/css/custom-styles.css --watch && parcel build ./wwwroot/index.html --no-source-maps",
     "start": "parcel ./wwwroot/index.html --open --port 8080",
     "lint": "tslint src/**/*.ts src/**/*.tsx",
     "test": "protractor ./src/Tests/conf.js"
