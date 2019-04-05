@@ -11,6 +11,9 @@ export default ['$routeProvider', '$locationProvider', ($routeProvider: any, $lo
     })
     .when('/directives', {
         templateUrl: 'directives.html'
+    })
+    .when('/redux', {
+        templateUrl: 'redux.html'
     });
 
     $locationProvider.html5Mode(true);
